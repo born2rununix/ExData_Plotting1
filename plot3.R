@@ -1,6 +1,6 @@
 ## This R script loads the household power consumption data set, subset the data to the desired
 ## time period, and creates a line plot of the of the multiple sets of sub-metering data to
-## over the desied time period
+## over the desired time period
 
 # Load the source data delimited by ';' into a table converting all of the missing data fields to NA 
 data <- read.table('household_power_consumption.txt',sep=";",header=TRUE,na.strings="?")
