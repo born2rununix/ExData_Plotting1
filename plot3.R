@@ -15,7 +15,7 @@ data2$DateTime <- strptime(paste(as.Date(data2$Date,
                                          format="%d/%m/%Y"),data2$Time), 
                            format="%Y-%m-%d %H:%M:%S")
 
-## Plot 3 - create a line plot using the sub-metering data over time, the plot overlays the three
+## Plot 3 - create a line plot visualizing the sub-metering data over time, the plot overlays the three
 ## different columes of sub-metering data adding the the additional columes as different lines and 
 ## a corresponding legend, and persisting the plot in png format 
 
